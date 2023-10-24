@@ -3,6 +3,15 @@
 	padding: 0;
 }
 
+#result {
+    font-weight: 700;
+    font-size: 60px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 #gameboard {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -17,4 +26,19 @@
     height: 150px;
     line-height: 150px;
     background-color: white;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    font-size: 18px;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
 }
